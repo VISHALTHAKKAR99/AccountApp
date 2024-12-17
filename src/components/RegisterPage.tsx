@@ -14,6 +14,7 @@ const RegisterPage: React.FC = () => {
   const handleRegister = (values: RegisterFormValues): void => {
     saveUserToLocalStorage(values);
     navigate('/login');
+
   };
 
   return (
